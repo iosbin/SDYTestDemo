@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'SDYTestDemo_Example' do
-  pod 'SDYTestDemo', :path => '../SDYTestDemo'
+  pod 'SDYTestDemo', :path => '../'
 
   target 'SDYTestDemo_Tests' do
     inherit! :search_paths

@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "NSArray+Safe.h"
 
 FOUNDATION_EXPORT double SDYTestDemoVersionNumber;
 FOUNDATION_EXPORT const unsigned char SDYTestDemoVersionString[];

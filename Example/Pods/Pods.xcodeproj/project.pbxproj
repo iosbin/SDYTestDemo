@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04E3651B8F792C0AE76BDE4222E3A15F /* SDYTestDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3F73BADCFBD91B54BF04414EE4CF393 /* SDYTestDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05FF89E84D435E1F4DBA18C3295B6BD7 /* SDYTestDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC73895E756199A694C5C2F0992A06D6 /* SDYTestDemo-dummy.m */; };
 		26ED21AC2BFA67F514044616EA6A82E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		341DFB82F9D6D2954A2945DBA7E260AB /* Pods-SDYTestDemo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 154F3B822F6AABCD988A23556CCA89B3 /* Pods-SDYTestDemo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46E9759B3E1046C9505149123C811C86 /* SDYTestDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86CDBDFFD557948CA576C83EEFD613AB /* SDYTestDemo-dummy.m */; };
-		597884080A2457864A4CABB8D7B23833 /* SDYTestDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5189A45BDECE9C282BD494009866CD4F /* SDYTestDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B59991501B6273608C9690BCC697669 /* Pods-SDYTestDemo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E0E4D9A7C900BDDD6945A9D0CC0F6D /* Pods-SDYTestDemo_Example-dummy.m */; };
 		A1909965056955EBD6BFB12EC770C627 /* Pods-SDYTestDemo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CED19E2CE2A4BB04374315EB2A0CE4 /* Pods-SDYTestDemo_Tests-dummy.m */; };
+		C144C2BE8D72AEBF69EC8365C5256793 /* NSArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E6484C0C5896151ACD97122F6ABE60C /* NSArray+Safe.m */; };
 		C4061018743DFBEEB2AA2329260037A4 /* Pods-SDYTestDemo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D549769B1060FA50A8CE359197888BC0 /* Pods-SDYTestDemo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D28B39ACC1D54A7E916B52D164621C52 /* NSArray+Safe.h in Headers */ = {isa = PBXBuildFile; fileRef = E6C44369463B5505FDE71A5FD940D222 /* NSArray+Safe.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D924471A55AAB7A63F18AEF0BBEEBCEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		DA98271B454D5F463607805D83C19BE7 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D195325E8E83A088E372AE8FCD7426 /* ReplaceMe.m */; };
 		DD459EE07378BEC56DCD319F5B91A97E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,37 +38,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03FDD41C2D5E7EE3536EA42A9ECC514E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		13C47B3ED33323B305230584B47F23B3 /* SDYTestDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SDYTestDemo-Info.plist"; sourceTree = "<group>"; };
 		154F3B822F6AABCD988A23556CCA89B3 /* Pods-SDYTestDemo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SDYTestDemo_Tests-umbrella.h"; sourceTree = "<group>"; };
 		198F28D00A99AF61D000AB94F91BF56B /* Pods-SDYTestDemo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SDYTestDemo_Example.modulemap"; sourceTree = "<group>"; };
-		25D14165F46AADF507E096916DDF0C0A /* SDYTestDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SDYTestDemo.modulemap; sourceTree = "<group>"; };
 		290B5CB5EF4882C848488ECAA7B44ED0 /* SDYTestDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDYTestDemo.framework; path = SDYTestDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F523365B963ABD018295E4D382AB776 /* SDYTestDemo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SDYTestDemo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3190D6D41F293B8C6AA1E36914BA0D8F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3EDAB05823908210AD34D1C689C0F8D9 /* SDYTestDemo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDYTestDemo.xcconfig; sourceTree = "<group>"; };
 		466E527F58B916BCFC7513CF9405ECA7 /* Pods-SDYTestDemo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SDYTestDemo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		4D4E8A8DA30000113D3311394038677C /* Pods-SDYTestDemo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SDYTestDemo_Example-frameworks.sh"; sourceTree = "<group>"; };
-		5189A45BDECE9C282BD494009866CD4F /* SDYTestDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDYTestDemo-umbrella.h"; sourceTree = "<group>"; };
-		52960EE36D8708BD537E6EAEB2E9E0E5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4E6484C0C5896151ACD97122F6ABE60C /* NSArray+Safe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Safe.m"; path = "SDYTestDemo/Classes/NSArray+Safe.m"; sourceTree = "<group>"; };
 		55E0E4D9A7C900BDDD6945A9D0CC0F6D /* Pods-SDYTestDemo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SDYTestDemo_Example-dummy.m"; sourceTree = "<group>"; };
 		5FEB11EB50E5CB922F6BB91BF2156345 /* Pods_SDYTestDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SDYTestDemo_Tests.framework; path = "Pods-SDYTestDemo_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64F1C8B9F0405D63E91893EFC6735CA3 /* Pods-SDYTestDemo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SDYTestDemo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		66C35934FB0F4A92AB27B58F30C2CC49 /* Pods-SDYTestDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDYTestDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7B37FCE579DB2BA39E24E82978A4B4F9 /* Pods-SDYTestDemo_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SDYTestDemo_Example-Info.plist"; sourceTree = "<group>"; };
 		7C8CD3991B87D457FE06730D4034EE1E /* Pods-SDYTestDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDYTestDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		86CDBDFFD557948CA576C83EEFD613AB /* SDYTestDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDYTestDemo-dummy.m"; sourceTree = "<group>"; };
 		89D330BB53019866EA60BB5ABF40FDDF /* Pods-SDYTestDemo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SDYTestDemo_Tests.modulemap"; sourceTree = "<group>"; };
-		9DD412902C3076F25A90BC63590FDBB8 /* SDYTestDemo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDYTestDemo-prefix.pch"; sourceTree = "<group>"; };
+		8DE69FA9A6958CC813D29444887A73FE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8F98709C75BB7C02A6B4D0A14F38D4D9 /* SDYTestDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SDYTestDemo-Info.plist"; sourceTree = "<group>"; };
+		9618F08103FE55B742E19B20FC60F1C1 /* SDYTestDemo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDYTestDemo-prefix.pch"; sourceTree = "<group>"; };
 		9F9F057110F319E24F1D3839F569327D /* Pods-SDYTestDemo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SDYTestDemo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A56782FE38B5A3B12D4E43016E966A35 /* SDYTestDemo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDYTestDemo.xcconfig; sourceTree = "<group>"; };
 		A63F885EE52F26641215B58034CE4C74 /* Pods-SDYTestDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDYTestDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A88BE6DBA21C0108497E18A7680AA3D3 /* Pods_SDYTestDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SDYTestDemo_Example.framework; path = "Pods-SDYTestDemo_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB8968889DDFF2D8DBCEE542F006E182 /* SDYTestDemo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SDYTestDemo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B3CED19E2CE2A4BB04374315EB2A0CE4 /* Pods-SDYTestDemo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SDYTestDemo_Tests-dummy.m"; sourceTree = "<group>"; };
+		B3F73BADCFBD91B54BF04414EE4CF393 /* SDYTestDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDYTestDemo-umbrella.h"; sourceTree = "<group>"; };
 		B7A65DBE3A7059D885E889D308228FA8 /* Pods-SDYTestDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDYTestDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C8748FD1CB9504557CFD2D0E7943132C /* Pods-SDYTestDemo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SDYTestDemo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D0D195325E8E83A088E372AE8FCD7426 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = SDYTestDemo/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		D549769B1060FA50A8CE359197888BC0 /* Pods-SDYTestDemo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SDYTestDemo_Example-umbrella.h"; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D89724D880226692BBC5BA97308153B1 /* SDYTestDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SDYTestDemo.modulemap; sourceTree = "<group>"; };
+		E6C44369463B5505FDE71A5FD940D222 /* NSArray+Safe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Safe.h"; path = "SDYTestDemo/Classes/NSArray+Safe.h"; sourceTree = "<group>"; };
+		EC73895E756199A694C5C2F0992A06D6 /* SDYTestDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDYTestDemo-dummy.m"; sourceTree = "<group>"; };
 		F7B008A73062544AAA3F0EAC008A32AB /* Pods-SDYTestDemo_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SDYTestDemo_Tests-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,26 +110,26 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		104E0590ED65C3D7EFD83F8D2F24F050 /* Development Pods */ = {
+		215932D4E40F8EAC22F97AD527EF897C /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				615A3A0F3142276358B3C1FAA19B9564 /* SDYTestDemo */,
+				8DE69FA9A6958CC813D29444887A73FE /* LICENSE */,
+				3190D6D41F293B8C6AA1E36914BA0D8F /* README.md */,
+				AB8968889DDFF2D8DBCEE542F006E182 /* SDYTestDemo.podspec */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		38D6ACF85A57B0CD33FBC3C4245C3266 /* Support Files */ = {
+		3E463A5162DF41377E8B2212B8E5D32B /* SDYTestDemo */ = {
 			isa = PBXGroup;
 			children = (
-				25D14165F46AADF507E096916DDF0C0A /* SDYTestDemo.modulemap */,
-				A56782FE38B5A3B12D4E43016E966A35 /* SDYTestDemo.xcconfig */,
-				86CDBDFFD557948CA576C83EEFD613AB /* SDYTestDemo-dummy.m */,
-				13C47B3ED33323B305230584B47F23B3 /* SDYTestDemo-Info.plist */,
-				9DD412902C3076F25A90BC63590FDBB8 /* SDYTestDemo-prefix.pch */,
-				5189A45BDECE9C282BD494009866CD4F /* SDYTestDemo-umbrella.h */,
+				E6C44369463B5505FDE71A5FD940D222 /* NSArray+Safe.h */,
+				4E6484C0C5896151ACD97122F6ABE60C /* NSArray+Safe.m */,
+				215932D4E40F8EAC22F97AD527EF897C /* Pod */,
+				8F2324D15CE20D2DC687B50040FDAB8D /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SDYTestDemo";
+			name = SDYTestDemo;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		44D5347904CF754D6785B84253F2574A /* iOS */ = {
@@ -136,17 +138,6 @@
 				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		615A3A0F3142276358B3C1FAA19B9564 /* SDYTestDemo */ = {
-			isa = PBXGroup;
-			children = (
-				D0D195325E8E83A088E372AE8FCD7426 /* ReplaceMe.m */,
-				EA7A5FE0DEEFD7C89044A270898FA615 /* Pod */,
-				38D6ACF85A57B0CD33FBC3C4245C3266 /* Support Files */,
-			);
-			name = SDYTestDemo;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		77A55A4768E2D904AC3312038C276898 /* Pods-SDYTestDemo_Tests */ = {
@@ -169,11 +160,25 @@
 			isa = PBXGroup;
 			children = (
 				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
-				104E0590ED65C3D7EFD83F8D2F24F050 /* Development Pods */,
+				DDAA4C0FD8D961AF4AA545DC10DDB619 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				D8663DDAF5BE13816659954020D65FA1 /* Products */,
 				023C14208808EEAE36DDA81A31DE423A /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8F2324D15CE20D2DC687B50040FDAB8D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D89724D880226692BBC5BA97308153B1 /* SDYTestDemo.modulemap */,
+				3EDAB05823908210AD34D1C689C0F8D9 /* SDYTestDemo.xcconfig */,
+				EC73895E756199A694C5C2F0992A06D6 /* SDYTestDemo-dummy.m */,
+				8F98709C75BB7C02A6B4D0A14F38D4D9 /* SDYTestDemo-Info.plist */,
+				9618F08103FE55B742E19B20FC60F1C1 /* SDYTestDemo-prefix.pch */,
+				B3F73BADCFBD91B54BF04414EE4CF393 /* SDYTestDemo-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SDYTestDemo";
 			sourceTree = "<group>";
 		};
 		AC8F7E439C1CEDD9CC2D1FA284F84C9B /* Pods-SDYTestDemo_Example */ = {
@@ -211,24 +216,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EA7A5FE0DEEFD7C89044A270898FA615 /* Pod */ = {
+		DDAA4C0FD8D961AF4AA545DC10DDB619 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				03FDD41C2D5E7EE3536EA42A9ECC514E /* LICENSE */,
-				52960EE36D8708BD537E6EAEB2E9E0E5 /* README.md */,
-				2F523365B963ABD018295E4D382AB776 /* SDYTestDemo.podspec */,
+				3E463A5162DF41377E8B2212B8E5D32B /* SDYTestDemo */,
 			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0CEF5DC588BDE4CFE83001B745322DF5 /* Headers */ = {
+		694CCACEC358886DC6A0918B755DD6DF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				597884080A2457864A4CABB8D7B23833 /* SDYTestDemo-umbrella.h in Headers */,
+				D28B39ACC1D54A7E916B52D164621C52 /* NSArray+Safe.h in Headers */,
+				04E3651B8F792C0AE76BDE4222E3A15F /* SDYTestDemo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,8 +297,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A41A5A24BADB0609601AA3CB4E0AA444 /* Build configuration list for PBXNativeTarget "SDYTestDemo" */;
 			buildPhases = (
-				0CEF5DC588BDE4CFE83001B745322DF5 /* Headers */,
-				A841D9B9EDAB28E74CD480FA27514370 /* Sources */,
+				694CCACEC358886DC6A0918B755DD6DF /* Headers */,
+				A9952078F714BAAEC72BA77F2700D023 /* Sources */,
 				DC6C99C88D1696D9A804F1DC0909D31D /* Frameworks */,
 				721237FCA6A526A8275CA6ABAFCAD53E /* Resources */,
 			);
@@ -376,12 +380,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A841D9B9EDAB28E74CD480FA27514370 /* Sources */ = {
+		A9952078F714BAAEC72BA77F2700D023 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA98271B454D5F463607805D83C19BE7 /* ReplaceMe.m in Sources */,
-				46E9759B3E1046C9505149123C811C86 /* SDYTestDemo-dummy.m in Sources */,
+				C144C2BE8D72AEBF69EC8365C5256793 /* NSArray+Safe.m in Sources */,
+				05FF89E84D435E1F4DBA18C3295B6BD7 /* SDYTestDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,7 +601,7 @@
 		};
 		6CC42D9A2DEF36F8CA8B383AA06B06CB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A56782FE38B5A3B12D4E43016E966A35 /* SDYTestDemo.xcconfig */;
+			baseConfigurationReference = 3EDAB05823908210AD34D1C689C0F8D9 /* SDYTestDemo.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -627,7 +631,7 @@
 		};
 		70FB96B60866BE27569415746BF6B55D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A56782FE38B5A3B12D4E43016E966A35 /* SDYTestDemo.xcconfig */;
+			baseConfigurationReference = 3EDAB05823908210AD34D1C689C0F8D9 /* SDYTestDemo.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
