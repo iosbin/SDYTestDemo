@@ -1,0 +1,6 @@
+framework module SDYTestDemo {
+  umbrella header "SDYTestDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

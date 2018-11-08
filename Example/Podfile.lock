@@ -1,0 +1,16 @@
+PODS:
+  - SDYTestDemo (0.1.0)
+
+DEPENDENCIES:
+  - SDYTestDemo (from `../`)
+
+EXTERNAL SOURCES:
+  SDYTestDemo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SDYTestDemo: d90ac641cecd37fc55fda660a5421b8e70c7b33e
+
+PODFILE CHECKSUM: b81e74b08434f303b8072cdbeb76055ed85ea0d6
+
+COCOAPODS: 1.6.0.beta.2
